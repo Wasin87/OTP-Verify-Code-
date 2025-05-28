@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Verification</title>
+  <style>
+    
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: cover;
+      background-position: center;
+      background-image: url('105027-eagle-animals-birds-Fly.jpg');
+      font-family: Arial, sans-serif;
+    }
+
+    
+    .verification-code {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.5);  
+      color: rgb(242, 255, 240);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    
+    .verification-code h3 {
+      color: white;
+      margin-bottom: 20px;
+    }
+
+     
+    .verification-code-container input {
+      width: 40px;
+      height: 40px;
+      margin: 0 5px;
+      font-size: 20px;
+      text-align: center;
+      border: 1px solid #2643c2;
+      border-radius: 5px;
+    }
+
+     
+    .button-container button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #0f0a5c;
+      color: rgb(249, 251, 252);
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    .button-container button:hover {
+      background-color: #4c93df;
+    }
+  </style>
+</head>
+<body>
+  <div class="verification-code">
+    <h3>Enter The Code</h3>
+    <div class="verification-code-container">
+      <input type="text" maxlength="1" class="input" />
+      <input type="text" maxlength="1" class="input" />
+      <input type="text" maxlength="1" class="input" />
+      <input type="text" maxlength="1" class="input" />
+      <input type="text" maxlength="1" class="input" />
+    </div>
+    <div class="button-container">
+      <button>Verify</button>
+    </div>
+  </div>
+</body>
+</html>
